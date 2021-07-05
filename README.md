@@ -26,3 +26,4 @@ yarn start
 ## Obsevações
 
 * Todos os arquivos relacionados ao meeting como (PDF, Power Point, etc) devem ser inseridos nesse repositório; 
+* Crie uma branch sempre que for necessário alterar partes de um código (Crie uma To-do com um numero e a branch com o mesmo número da To-do); 
