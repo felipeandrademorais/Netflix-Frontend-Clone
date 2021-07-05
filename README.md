@@ -14,8 +14,6 @@ cd netflix-clone
 
 * **Passo 2** Instale as dependências do projeto;
 
-Caso utilize yarn
-
 ```
 yarn
 ```
@@ -25,7 +23,6 @@ yarn
 ```
 yarn start
 ```
-
 ## Obsevações
 
 * Todos os arquivos relacionados ao meeting como (PDF, Power Point, etc) devem ser inseridos nesse repositório; 
