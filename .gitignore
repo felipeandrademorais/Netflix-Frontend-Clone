@@ -1,0 +1,10 @@
+/netflix-clone/node_modules
+/netflix-clone/.pnp
+/netflix-clone/.pnp.js
+/netflix-clone/coverage
+/netflix-clone/build
+/netflix-clone/.DS_Store
+/netflix-clone/.env
+/netflix-clone/npm-debug.log*
+/netflix-clone/yarn-debug.log*
+/netflix-clone/yarn-error.log*
