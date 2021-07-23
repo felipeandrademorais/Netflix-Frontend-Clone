@@ -18,7 +18,14 @@ cd netflix-clone
 yarn
 ```
 
-* **Passo 3** Executar o projeto;
+* **Passo 3** Criando arquivo .env;
+
+Antes de iniciar a aplicação é preciso configurar o .env com a chave da api do Tmdb. 
+Para isso renomeie o arquivo .env_exemplo para .env e em seguida preencha o campo REACT_APP_API_KEY 
+com a api gerada no Tmdb;
+
+
+* **Passo 4** Iniciando a Aplicação;
 
 ```
 yarn start
