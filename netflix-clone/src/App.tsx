@@ -22,8 +22,15 @@ function App() {
   return (
     <div className="page">
       <section className="lists">
-        {movieList.map((item)=>(
+        {movieList.map((item) => (
           <div>{item.title}</div>
+
+          /*
+            Aqui chamar componente que mostra uma linha contendo lista de filmes
+            e passar para o componente o array com os filmes {item.items} para 
+            dentro do componente iterar esses items e exibir como cards de filmes;
+          */
+
         ))}
       </section>
     </div>
