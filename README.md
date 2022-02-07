@@ -1,4 +1,4 @@
-# Meeting Reat 
+# Netflix Frontend Clone (React) 
 
 Esse repositório é destinado a criação de um clone do Netflix utilizando react. 
 O principal objetivo é apresentar um projeto prático com react para apresentar a ferramenta em um meeting;
