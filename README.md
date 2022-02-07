@@ -3,6 +3,8 @@
 Esse repositório é destinado a criação de um clone do Netflix utilizando react. 
 O principal objetivo é apresentar um projeto prático com react para apresentar a ferramenta em um meeting;
 
+O Frontend consome a informações da API IMDB. Por isso é necessário inserir no .env a hash gerada pela api;
+
 
 ## Como Rodar o Projeto Localmente
 
