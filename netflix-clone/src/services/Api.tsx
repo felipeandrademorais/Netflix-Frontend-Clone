@@ -51,6 +51,26 @@ export default {
       },
 
     ];
+  },
+
+  getMovieInfo: async (movieId: string, type: string) => {
+    let info:any = {};
+
+    if(movieId){
+      switch(type){
+        case 'movie': 
+          info = await basicFetch(`/movie/${movieId}?language=pt-BR&api_key=${process.env.REACT_APP_API_KEY}`);
+          break;
+        case 'tv':
+          info = await basicFetch(`/tv/${movieId}?language=pt-BR&api_key=${process.env.REACT_APP_API_KEY}`);
+          break;
+        default:
+          info = null;
+          break;
+      }
+    }
+
+    return info;
   }
 }
 
